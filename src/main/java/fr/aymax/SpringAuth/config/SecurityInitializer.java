@@ -1,4 +1,4 @@
-package fr.aymax.evalApp.config;
+package fr.aymax.SpringAuth.config;
 
 import org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer;
 

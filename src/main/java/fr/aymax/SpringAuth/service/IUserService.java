@@ -1,8 +1,8 @@
-package fr.aymax.evalApp.service;
+package fr.aymax.SpringAuth.service;
 
 import org.springframework.security.access.annotation.Secured;
 
-import fr.aymax.evalApp.entity.MyUser;
+import fr.aymax.SpringAuth.entity.MyUser;
 
 public interface IUserService 
 {

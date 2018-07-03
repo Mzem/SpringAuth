@@ -1,4 +1,4 @@
-package fr.aymax.evalApp.service;
+package fr.aymax.SpringAuth.service;
 
 import java.util.Arrays;
 
@@ -11,8 +11,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import fr.aymax.evalApp.dao.UserDAO;
-import fr.aymax.evalApp.entity.MyUser;
+import fr.aymax.SpringAuth.dao.UserDAO;
+import fr.aymax.SpringAuth.entity.MyUser;
 
 /**
  * Spring has UserDetailsService interface that loads user specific data. 

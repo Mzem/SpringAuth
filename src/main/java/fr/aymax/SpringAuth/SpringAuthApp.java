@@ -1,14 +1,14 @@
-package fr.aymax.evalApp;
+package fr.aymax.SpringAuth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 @SpringBootApplication
-public class EvalApp {
+public class SpringAuthApp {
 
 	public static void main(String[] args) 
 	{
-		SpringApplication.run(EvalApp.class, args);
+		SpringApplication.run(SpringAuthApp.class, args);
 	}
 }

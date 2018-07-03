@@ -1,4 +1,4 @@
-package fr.aymax.evalApp.entity;
+package fr.aymax.SpringAuth.entity;
 
 import java.io.Serializable;
 import javax.persistence.Column;

@@ -1,10 +1,10 @@
-package fr.aymax.evalApp.service;
+package fr.aymax.SpringAuth.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import fr.aymax.evalApp.dao.UserDAO;
-import fr.aymax.evalApp.entity.MyUser;
+import fr.aymax.SpringAuth.dao.UserDAO;
+import fr.aymax.SpringAuth.entity.MyUser;
 
 @Service
 public class UserService implements IUserService 

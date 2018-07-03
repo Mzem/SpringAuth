@@ -1,4 +1,4 @@
-package fr.aymax.evalApp.config;
+package fr.aymax.SpringAuth.config;
 
 import java.io.IOException;
 import java.util.Properties;
@@ -45,7 +45,7 @@ public class DBConfig
 	public SessionFactory sessionFactory() {
 	      LocalSessionFactoryBean lsfb = new LocalSessionFactoryBean();
 	      lsfb.setDataSource(getDataSource());
-	      lsfb.setPackagesToScan("fr.aymax.evalApp.entity");
+	      lsfb.setPackagesToScan("fr.aymax.SpringAuth.entity");
 	      lsfb.setHibernateProperties(hibernateProperties());
 	      try {
 		     lsfb.afterPropertiesSet();

@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>fr.aymax</groupId>
-	<artifactId>evalApp</artifactId>
+	<artifactId>SpringAuth</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>evalApp</name>
-	<description>evalApp Spring server</description>
+	<name>SpringAuth</name>
+	<description>Spring authentification sample app</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -130,7 +130,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>evalApp-server</finalName>
+		<finalName>SpringAuth</finalName>
 		
 		<plugins>
 			<plugin>

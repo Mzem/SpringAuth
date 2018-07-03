@@ -1,7 +1,7 @@
-DROP DATABASE  IF EXISTS `evalApp_db`;
+DROP DATABASE  IF EXISTS `SpringAuth_db`;
 
-CREATE DATABASE  IF NOT EXISTS `evalApp_db`;
-USE `evalApp_db`;
+CREATE DATABASE  IF NOT EXISTS `SpringAuth_db`;
+USE `SpringAuth_db`;
 
 --
 -- Table structure for table `users`
@@ -31,7 +31,7 @@ VALUES
 -- DB users
 --
 CREATE USER IF NOT EXISTS 'admin1'@'localhost' IDENTIFIED BY 'amx';
-GRANT ALL PRIVILEGES ON evalApp_db.* TO 'admin1'@'localhost';
+GRANT ALL PRIVILEGES ON SpringAuth_db.* TO 'admin1'@'localhost';
 
-CREATE USER IF NOT EXISTS 'admin2'@'192.168.202.65' IDENTIFIED BY 'amx';
-GRANT ALL PRIVILEGES ON evalApp_db.* TO 'admin2'@'192.168.202.65';
+CREATE USER IF NOT EXISTS 'admin2'@'192.168.202.74' IDENTIFIED BY 'amx';
+GRANT ALL PRIVILEGES ON SpringAuth_db.* TO 'admin2'@'192.168.202.74';

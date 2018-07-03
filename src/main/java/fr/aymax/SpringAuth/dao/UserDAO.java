@@ -1,4 +1,4 @@
-package fr.aymax.evalApp.dao;
+package fr.aymax.SpringAuth.dao;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,7 +6,7 @@ import org.springframework.orm.hibernate5.HibernateTemplate;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import fr.aymax.evalApp.entity.MyUser;
+import fr.aymax.SpringAuth.entity.MyUser;
 
 /**
  * When user enters the user name and password to login into the application then getActiveUser() method is used by MyAppUserDetailsService to load the user for authentication and authorization. 

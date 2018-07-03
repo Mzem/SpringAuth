@@ -1,4 +1,4 @@
-package fr.aymax.evalApp.config;
+package fr.aymax.SpringAuth.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -11,7 +11,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-import fr.aymax.evalApp.service.AppUserDetailsService;
+import fr.aymax.SpringAuth.service.AppUserDetailsService;
 
 /**
  * We need to annotate our security configuration class with @EnableWebSecurity that helps to configure spring security from WebSecurityConfigurer class. 

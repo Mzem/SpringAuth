@@ -1,4 +1,4 @@
-package fr.aymax.evalApp.config;
+package fr.aymax.SpringAuth.config;
 
 import org.springframework.context.annotation.*;
 import org.springframework.context.support.ReloadableResourceBundleMessageSource;
@@ -11,7 +11,7 @@ import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages="fr.aymax.evalApp")
+@ComponentScan(basePackages="SpringAuth")
 public class AppConfig extends WebMvcConfigurerAdapter 
 {
 	@Bean //Define a bean for ViewResolver
